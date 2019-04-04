@@ -96,7 +96,7 @@ public class MobileAPI {
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
                 appDirectory = new File("src/app");
-                findApp = new File(appDirectory,"Ebay.apk");
+                findApp = new File(appDirectory,"macys.apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);

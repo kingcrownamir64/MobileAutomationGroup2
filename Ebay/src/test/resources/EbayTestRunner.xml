@@ -4,7 +4,7 @@
 
     <parameter name="OS" value="Android"/>
     <parameter name="appType" value="Phone"/>
-    <parameter name="deviceType" value="RealDevice"/>
+    <parameter name="deviceType" value="Emulator"/>
     <parameter name="deviceName" value="Pixel 2 XL"/>
     <parameter name="version" value="9"/>
     <parameter name="moduleName" value="Ebay"/>
