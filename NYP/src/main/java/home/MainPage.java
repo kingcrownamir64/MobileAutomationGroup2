@@ -49,12 +49,12 @@ public class MainPage extends MobileAPI {
     public void getTopStories(){
         getMenu();
         scrollAndClickByName(mainMenuArr[0]);
-        //Assert.assertTrue(txtPageHeading.getText().contains("TOP STORIES"));
+//        Assert.assertTrue(txtPageHeading.getText().contains("TOP STORIES"));
     }
     public void getSavedArticles(){
         getMenu();
         scrollAndClickByName(mainMenuArr[1]);
-        //Assert.assertTrue(txtPageHeading.getText().contains("SAVED ARTICLES"));
+        Assert.assertTrue(txtPageHeading.getText().contains("SAVED ARTICLES"));
     }
     public void getNews(){
         getMenu();
