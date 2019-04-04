@@ -1,5 +1,6 @@
 import common.MobileAPI;
 import org.junit.Assert;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -131,6 +132,17 @@ public class MacysHome extends MobileAPI {
     @FindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView")
     private WebElement salesAndClearanceHeading;
 
+    @FindBy (id = "android:id/search_src_text")
+    private WebElement searchBox;
+
+    @FindBy (id = "com.macys.android:id/menu_search")
+    private WebElement searchMagnifyingGlass;
+
+    public void cancelPopUps(){
+        letsGo.click();
+        notNow.click();
+    }
+
     public void clickShop() throws Exception {
         letsGo.click();
         notNow.click();
@@ -164,6 +176,10 @@ public class MacysHome extends MobileAPI {
         mensTab.click();
         mensHeading.isDisplayed();
         Assert.assertTrue(true);
+    }
+
+    public void clicksMen(){
+        mensTab.click();
     }
 
     public void clickKids() throws Exception{
@@ -335,5 +351,17 @@ public class MacysHome extends MobileAPI {
         salesAndClearanceHeading.isDisplayed();
         Assert.assertTrue(true);
     }
-}
 
+    public void clickSearchBox(){
+        searchBox.click();
+    }
+
+    public void searchForItems(String item) throws Exception {
+        shopButton.click();
+        searchMagnifyingGlass.click();
+        searchBox.clear();
+        Thread.sleep(3000);
+        searchBox.sendKeys(item + "\n");
+        Thread.sleep(3000);
+    }
+}
