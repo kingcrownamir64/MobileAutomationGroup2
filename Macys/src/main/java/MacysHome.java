@@ -1,6 +1,5 @@
 import common.MobileAPI;
-import org.junit.Assert;
-import org.openqa.selenium.Keys;
+import org.testng.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -137,6 +136,15 @@ public class MacysHome extends MobileAPI {
 
     @FindBy (id = "com.macys.android:id/menu_search")
     private WebElement searchMagnifyingGlass;
+
+    @FindBy (id = "com.macys.android:id/img_notification")
+    private WebElement inbox;
+
+    @FindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView")
+    private WebElement inboxHeading;
+
+    @FindBy (xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.widget.LinearLayout/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.ImageView")
+    private WebElement macysLogo;
 
     public void cancelPopUps(){
         letsGo.click();
@@ -363,5 +371,21 @@ public class MacysHome extends MobileAPI {
         Thread.sleep(3000);
         searchBox.sendKeys(item + "\n");
         Thread.sleep(3000);
+    }
+
+    public void clickInbox() throws Exception{
+        letsGo.click();
+        notNow.click();
+        inbox.click();
+        Thread.sleep(2000);
+        inboxHeading.isDisplayed();
+        Assert.assertTrue(true);
+    }
+
+    public void macysLogoDisplacement(){
+        letsGo.click();
+        notNow.click();
+        macysLogo.isDisplayed();
+        Assert.assertTrue(true);
     }
 }

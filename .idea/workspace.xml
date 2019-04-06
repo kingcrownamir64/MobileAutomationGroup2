@@ -24,23 +24,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+            <state relative-caret-position="225">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysStores.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysHome.java">
+        <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="366" column="1" selection-start-line="366" selection-start-column="1" selection-end-line="366" selection-end-column="1" />
+            <state relative-caret-position="250">
+              <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#17981#17982#0" expanded="true" />
-                <element signature="e#18012#18013#0" expanded="true" />
-                <element signature="e#22177#22178#0" expanded="true" />
-                <element signature="e#22210#22211#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,20 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Macys/src/main/java/datasource/MySqlData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-1865">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,13 +103,16 @@
         <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
         <option value="$PROJECT_DIR$/Macys/pom.xml" />
         <option value="$PROJECT_DIR$/Ebay/src/main/java/home/MainPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/AlertsTest.java" />
-        <option value="$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/secret.properties" />
         <option value="$PROJECT_DIR$/Macys/src/main/java/datasource/MySqlData.java" />
+        <option value="$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/Macys/src/test/java/TestMacysHome.java" />
         <option value="$PROJECT_DIR$/Macys/src/main/java/MacysHome.java" />
+        <option value="$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" />
+        <option value="$PROJECT_DIR$/Macys/src/main/java/MacysStores.java" />
+        <option value="$PROJECT_DIR$/Macys/src/test/java/TestMacysStore.java" />
       </list>
     </option>
   </component>
@@ -192,7 +191,7 @@
               <item name="Macys" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,7 +201,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554365111091" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554539180207" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -238,24 +237,6 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml">
-    <configuration name="ArticleTest.testArticles" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NYP" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="articles.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="articles" />
-      <option name="MAIN_CLASS_NAME" value="articles.ArticleTest" />
-      <option name="METHOD_NAME" value="testArticles" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestMacysHome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Macys" />
       <option name="PACKAGE_NAME" value="" />
@@ -266,9 +247,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMacysHome.testClickInbox" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Macys" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMacysHome" />
+      <option name="METHOD_NAME" value="testClickInbox" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Macys" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="UICatalog" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
@@ -286,23 +289,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/amir/Desktop/MobileAutomationGroup2/NYP/src/test/resources/NYPTestRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="NYP" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/NYP/src/test/resources/NYPTestRunner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" />
         <item itemvalue="TestNG.TestMacysHome" />
+        <item itemvalue="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" />
+        <item itemvalue="TestNG.TestMacysHome.testClickInbox" />
         <item itemvalue="TestNG./Users/amir/Desktop/MobileAutomationGroup2/Ebay/src/test/resources/EbayTestRunner.xml" />
-        <item itemvalue="TestNG./Users/amir/Desktop/MobileAutomationGroup2/NYP/src/test/resources/NYPTestRunner.xml" />
-        <item itemvalue="TestNG.ArticleTest.testArticles" />
       </list>
     </recent_temporary>
   </component>
@@ -320,34 +313,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 03h 01m 33s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 02h 51m 30s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 03h 07m 41s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 02h 53m 09s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 03h 08m 55s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 03h 08m 52s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 03h 10m 47s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 03h 11m 01s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 03h 12m 11s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 03h 12m 00s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 03h 18m 27s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 03h 29m 58s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 03h 59m 21s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 03h 33m 07s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 04h 03m 03s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 03h 49m 27s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestMacysHome - 2019.04.04 at 04h 03m 57s.xml">
-      <configuration name="TestMacysHome" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 04h 18m 03s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.04 at 04h 04m 53s.xml">
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.06 at 04h 24m 28s.xml">
       <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -355,7 +348,7 @@
     <frame x="90" y="23" width="1190" height="726" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.21602787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.20034844" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -364,8 +357,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.21529175" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42271292" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2612859" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27129337" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26025236" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -400,28 +393,8 @@
     <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ToolbarPage/Toolbar.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/WebPage/Web.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/SearchBarPage/SearchBar.java">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ImgesPage/Images.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ControlsPage/Controls.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ButtonsPage/Buttons.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UICatalog/src/test/resources/NYPTestRunner.xml" />
     <entry file="file://$PROJECT_DIR$/Generic/src/main/java/databases/ConnectToSqlDB.java">
@@ -470,25 +443,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/NYP/src/test/resources/NYPTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYP/src/main/java/home/MainPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3016#3017#0" expanded="true" />
-            <element signature="e#3049#3050#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,34 +501,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/TextFieldsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/PickerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/ButtonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/AlertsPage/Alerts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/ipad/HomePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -578,48 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/UiCatalogPage/UiCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/AlertsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/navigate/NavigateUi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="22" lean-forward="true" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -647,26 +539,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysHome.java">
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="159" column="5" lean-forward="true" selection-start-line="159" selection-start-column="5" selection-end-line="159" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/PickerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/TextFieldsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ButtonsPage/Buttons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ControlsPage/Controls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/ImgesPage/Images.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/navigate/NavigateUi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/Picker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/WebPage/Web.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/UiCatalogPage/UiCatalog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/AlertsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/java/iPhone/ButtonTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/AlertsPage/Alerts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="366" column="1" selection-start-line="366" selection-start-column="1" selection-end-line="366" selection-end-column="1" />
+        <state relative-caret-position="129">
+          <caret line="370" column="27" lean-forward="true" selection-start-line="370" selection-start-column="27" selection-end-line="370" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#17981#17982#0" expanded="true" />
-            <element signature="e#18012#18013#0" expanded="true" />
-            <element signature="e#22177#22178#0" expanded="true" />
-            <element signature="e#22210#22211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYP/src/main/java/home/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1389">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3016#3017#0" expanded="true" />
+            <element signature="e#3049#3050#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysStores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="171" column="30" selection-start-line="171" selection-start-column="30" selection-end-line="171" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1865">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="51" column="24" lean-forward="true" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

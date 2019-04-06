@@ -12,7 +12,8 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <class name="TestMacysHome"/>
+            <!--<class name="TestMacysHome"/>-->
+            <class name="TestMacysStore"/>
         </classes>
     </test>
 </suite>

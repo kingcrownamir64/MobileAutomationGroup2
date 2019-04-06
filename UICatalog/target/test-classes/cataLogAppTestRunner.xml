@@ -6,7 +6,7 @@
     <parameter name="appType" value="iPhone"/>
     <parameter name="deviceType" value="Simulator"/>
     <parameter name="deviceName" value="iPhone Simulator"/>
-    <parameter name="version" value="10.3"/>
+    <parameter name="version" value="12.2"/>
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
