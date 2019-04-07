@@ -1,23 +1,39 @@
 package iPhone;
 
 import TextFieldsPage.TextFields;
-import UiCatalogPage.UiCatalog;
-import navigate.NavigateUi;
+import common.MobileAPI;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/**
- * Created by mrahman on 1/15/17.
- */
-public class TextFieldsTest extends NavigateUi {
+public class TextFieldsTest extends MobileAPI {
 
-    TextFields textFields = new TextFields();
 
-    @Test
-    public void navigate()throws InterruptedException{
-        UiCatalog ui = PageFactory.initElements(ad, UiCatalog.class);
-        ui.getTextFields();
-        textFields.writeTextToFields();
+    TextFields textfield = new TextFields();
 
+    @BeforeMethod
+    public void initialize(){
+        this.textfield = PageFactory.initElements(this.ad, TextFields.class);
+        textfield.setTextFieldsPageButton();
+    }
+
+    @Test(priority = 1)
+    public void testUITextField() throws Exception {
+        textfield.setUITextField();
+    }
+
+    @Test(priority = 2)
+    public void testUITextFieldRound() throws Exception {
+        textfield.setUITextFieldRound();
+    }
+
+    @Test(priority = 3)
+    public void testUITextFieldSecure() throws Exception {
+        textfield.setUITextFieldSecure();
+    }
+
+    @Test(priority = 4)
+    public void testUITextFieldWithLeftView() throws Exception {
+        textfield.setUITextFieldWithLeftView();
     }
 }

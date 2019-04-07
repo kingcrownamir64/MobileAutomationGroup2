@@ -1,29 +1,48 @@
 package TextFieldsPage;
 
 import common.MobileAPI;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
-/**
- * Created by mrahman on 1/15/17.
- */
 public class TextFields extends MobileAPI {
 
-    public void typeOnUiTextField(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]", "Architecture");
-    }
-    public void typeOnUiTextFieldRounded(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]", "Rounded");
-    }
-    public void typeOnUiTextFieldSecure(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[4]", "test123");
-    }
-    public void typeOnUiTextFieldLeftView(){
-        typeByXpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[7]", "Secure");
+    @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Normal\"]\n")
+    public WebElement UITextField;
+
+    @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Rounded\"]\n")
+    public WebElement UITextFieldRound;
+
+    @FindBy(xpath = "//XCUIElementTypeSecureTextField[@name=\"Secure\"]\n")
+    public WebElement UITextFieldSecure;
+
+    @FindBy(xpath = "//XCUIElementTypeTextField[@name=\"Check\"]\n")
+    public WebElement UITextFieldWithLeftView;
+
+    @FindBy(xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[3]\n")
+    public WebElement TextFieldsPageButton;
+
+
+    public void setUITextField() throws Exception {
+        UITextField.click();
+        UITextField.clear();
+        Thread.sleep(2000);
+        UITextField.sendKeys("Testing 123");
     }
 
-    public void writeTextToFields()throws InterruptedException{
-        typeOnUiTextField();
-        typeOnUiTextFieldRounded();
-        typeOnUiTextFieldSecure();
-        typeOnUiTextFieldLeftView();
+    public void setUITextFieldRound() throws Exception {
+        UITextFieldRound.sendKeys("Testing 123");
     }
+
+    public void setUITextFieldSecure() throws Exception {
+        UITextFieldSecure.sendKeys("Testing 123");
+    }
+
+    public void setUITextFieldWithLeftView() throws Exception {
+        UITextFieldWithLeftView.sendKeys("Testing 123");
+    }
+
+    public void setTextFieldsPageButton(){
+        TextFieldsPageButton.click();
+    }
+
 }
