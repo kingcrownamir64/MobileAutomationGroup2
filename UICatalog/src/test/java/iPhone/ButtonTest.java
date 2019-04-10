@@ -7,10 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/**
- * Created by mrahman on 9/5/15.
- * MODIFIED BY NABIL
- */
 public class ButtonTest extends MobileAPI {
 
     Buttons buttons;
@@ -21,8 +17,13 @@ public class ButtonTest extends MobileAPI {
         buttons.clickButtons();
     }
 
-    @Test (priority = 1)
-    public void testGrayButton() throws Exception{
-        buttons.clickGray();
+//    @Test (priority = 1)
+//    public void testGrayButton() throws Exception{
+//        buttons.clickGray();
+//    }
+
+    @Test (priority = 2)
+    public void testButtonWithImage() throws Exception{
+        buttons.clickBtnWithImg();
     }
 }
