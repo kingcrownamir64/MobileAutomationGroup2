@@ -6,14 +6,14 @@
     <parameter name="appType" value="iPhone"/>
     <parameter name="deviceType" value="Simulator"/>
     <parameter name="deviceName" value="iPhone Simulator"/>
-    <parameter name="version" value="10.3"/>
+    <parameter name="version" value="12.2"/>
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <class name="iPhone.ButtonTest"/>
-            <class name="iPhone.TextFieldsTest"/>
-            <class name="iPhone.PickerTest"/>
-            <class name="iPhone.AlertsTest"/>
+            <!--<class name="iPhone.ButtonTest"/>-->
+            <!--<class name="iPhone.TextFieldsTest"/>-->
+            <class name="iPhone.ToolbarTest"/>
+            <!--<class name="iPhone.AlertsTest"/>-->
         </classes>
     </test>
 </suite>
