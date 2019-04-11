@@ -1,31 +1,30 @@
 package PickersPage;
 
 import common.MobileAPI;
+import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by mrahman on 1/15/17.
- */
 public class Picker extends MobileAPI {
-    public void selectPickerTwoWheels(String name, String number){
-        //scrollKeys(ad, new String[]{name,number});
-    }
-    @FindBy(xpath = "//UIAApplication[1]/UIAWindow[2]/UIAToolbar[1]/UIASegmentedControl[1]/UIAButton")
-    List<WebElement> segmentControl = new ArrayList<WebElement>();
 
-    public void getUIPicker(){
-        segmentControl.get(0).click();
-    }
-    public void getUIDatePicker(){
-        segmentControl.get(1).click();
-    }
-    public void getCustom(){
-        segmentControl.get(2).click();
+    @FindBy (xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[6]")
+    private WebElement pickers;
+
+    @FindBy (xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeScrollView/XCUIElementTypePicker/XCUIElementTypePickerWheel[1]")
+    private WebElement pickerWheel;
+
+    public void clickPickers(){
+        pickers.click();
     }
 
-
+    public void scroll()throws Exception{
+        TouchAction action = new TouchAction(ad);
+        action.tap(169, 250).perform();
+        Thread.sleep(3000);
+    }
 }

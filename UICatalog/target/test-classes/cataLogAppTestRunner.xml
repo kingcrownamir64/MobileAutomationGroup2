@@ -10,10 +10,14 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <class name="iPhone.ButtonTest"/>
+            <!--<class name="iPhone.ButtonTest"/>-->
             <!--<class name="iPhone.TextFieldsTest"/>-->
-            <!--<class name="iPhone.PickerTest"/>-->
+            <class name="iPhone.PickerTest"/>
             <!--<class name="iPhone.AlertsTest"/>-->
+            <!--<class name="iPhone.ImagesTest"/>-->
+            <!--<class name="iPhone.WebTest"/>-->
+            <!--<class name="iPhone.SegmentsTest"/>-->
+            <!--<class name="iPhone.TransitionsTest"/>-->
         </classes>
     </test>
 </suite>
