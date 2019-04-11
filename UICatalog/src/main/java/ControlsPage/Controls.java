@@ -5,6 +5,7 @@ import io.appium.java_client.TouchAction;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
 public class Controls extends MobileAPI {
 
@@ -28,6 +29,7 @@ public class Controls extends MobileAPI {
 
     public void setStandardSwitch() throws Exception {
         StandardSwitch.click();
+        Assert.assertTrue(true);
     }
 
 
@@ -39,12 +41,14 @@ public class Controls extends MobileAPI {
         TouchAction action = new TouchAction(ad);
         action.longPress(293, 337).moveTo(320, 337).perform().release();
         Thread.sleep(5000);
+        Assert.assertTrue(true);
     }
 
     public void setCustomSlider() throws Exception {
         TouchAction action = new TouchAction(ad);
         action.longPress(293, 512).moveTo(320, 512).perform().release();
         Thread.sleep(5000);
+        Assert.assertTrue(true);
     }
 
 }

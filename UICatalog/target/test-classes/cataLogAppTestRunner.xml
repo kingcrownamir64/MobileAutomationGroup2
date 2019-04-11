@@ -12,8 +12,10 @@
         <classes>
             <!--<class name="iPhone.ButtonTest"/>-->
             <!--<class name="iPhone.TextFieldsTest"/>-->
-            <class name="iPhone.ToolbarTest"/>
+            <!--<class name="iPhone.ToolbarTest"/>-->
             <!--<class name="iPhone.AlertsTest"/>-->
+            <class name="iPhone.AlertsTest"/>
+
         </classes>
     </test>
 </suite>

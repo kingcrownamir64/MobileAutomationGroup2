@@ -57,4 +57,11 @@ public class ToolbarTest extends MobileAPI{
     public void testSettingButton() throws Exception {
         toolbar.setSettingButton();
     }
+
+    @Test(priority = 8)
+    public void testsetBackbutton() throws Exception {
+        toolbar.setBackbutton();
+    }
+
+
 }
