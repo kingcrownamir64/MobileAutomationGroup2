@@ -5,15 +5,15 @@
     <parameter name="OS" value="Android"/>
     <parameter name="appType" value="Phone"/>
     <parameter name="deviceType" value="RealDevice"/>
-    <parameter name="deviceName" value="Nexus 5X"/>
-    <parameter name="version" value="8.1.0"/>
+    <parameter name="deviceName" value="Pixel 3 XL"/>
+    <parameter name="version" value="9"/>
     <parameter name="moduleName" value="Macys"/>
     <parameter name="appName" value="macys.apk"/>
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <!--<class name="TestMacysHome"/>-->
-            <!--<class name="TestMacysStore"/>-->
+            <class name="TestMacysHome"/>
+            <class name="TestMacysStore"/>
             <class name="TestMacysCustomerService"/>
         </classes>
     </test>

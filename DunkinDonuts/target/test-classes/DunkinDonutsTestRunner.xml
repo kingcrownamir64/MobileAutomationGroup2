@@ -12,7 +12,7 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
-            <!--<class name="TestDunkinDonutsHome"/>-->
+            <class name="TestDunkinDonutsHome"/>
             <class name="TestDunkinDonutsSignUpPage"/>
         </classes>
     </test>

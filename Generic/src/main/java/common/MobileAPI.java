@@ -160,7 +160,7 @@ public class MobileAPI {
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
                 appDirectory = new File("src/app");
-                findApp = new File(appDirectory,"Ebay.apk");
+                findApp = new File(appDirectory,"Dunkin Donuts_v6.1.2_apkpure.com.apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);

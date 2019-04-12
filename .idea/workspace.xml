@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="43519da0-6435-48fd-9f53-ba41a411d5a5" name="Default Changelist" comment="" />
+    <list default="true" id="43519da0-6435-48fd-9f53-ba41a411d5a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsSignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsSignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsSignUpPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsSignUpPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Generic/target/" />
@@ -22,7 +28,17 @@
     <favorites_list name="MobileAutomationGroup2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,7 +81,6 @@
         <option value="$PROJECT_DIR$/Macys/src/test/java/TestMacysStore.java" />
         <option value="$PROJECT_DIR$/Macys/src/test/java/TestMacysAccount.java" />
         <option value="$PROJECT_DIR$/Macys/src/main/java/MacysAccount.java" />
-        <option value="$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml" />
         <option value="$PROJECT_DIR$/Macys/src/main/java/MacysCustomerService.java" />
         <option value="$PROJECT_DIR$/Macys/src/test/java/TestMacysCustomerService.java" />
         <option value="$PROJECT_DIR$/Target/pom.xml" />
@@ -80,10 +95,6 @@
         <option value="$PROJECT_DIR$/DunkinDonuts/pom.xml" />
         <option value="$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsHome.java" />
         <option value="$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsHome.java" />
-        <option value="$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsSignUpPage.java" />
-        <option value="$PROJECT_DIR$/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" />
-        <option value="$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsSignUpPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/ButtonsPage/Buttons.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/ButtonTest.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/ImagesTest.java" />
@@ -97,6 +108,11 @@
         <option value="$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml" />
         <option value="$PROJECT_DIR$/UICatalog/src/test/java/iPhone/PickerTest.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/Picker.java" />
+        <option value="$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsSignUpPage.java" />
+        <option value="$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java" />
+        <option value="$PROJECT_DIR$/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" />
+        <option value="$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsSignUpPage.java" />
       </list>
     </option>
   </component>
@@ -109,17 +125,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="DunkinDonuts" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="DunkinDonuts" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -127,9 +133,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="191" />
+    <option name="x" value="118" />
     <option name="y" value="24" />
-    <option name="width" value="1089" />
+    <option name="width" value="1162" />
     <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -138,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,70 +154,24 @@
             <path>
               <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="DunkinDonuts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="iPhone" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MobileAutomationGroup2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MobileAutomationGroup2" type="462c0819:PsiDirectoryNode" />
-              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="DunkinDonuts" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554975470276" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555053406361" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -247,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml">
+  <component name="RunManager" selected="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml">
     <configuration name="TestMacysHome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Macys" />
       <option name="PACKAGE_NAME" value="" />
@@ -302,9 +261,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" />
         <item itemvalue="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" />
         <item itemvalue="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" />
+        <item itemvalue="TestNG./Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" />
         <item itemvalue="TestNG.TestMacysHome" />
         <item itemvalue="TestNG.TestMacysHome.testClickInbox" />
       </list>
@@ -324,41 +283,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 04h 51m 02s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_DunkinDonuts_src_test_resources_DunkinDonutsTestRunner_xml - 2019.04.12 at 02h 40m 16s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 04h 59m 11s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_DunkinDonuts_src_test_resources_DunkinDonutsTestRunner_xml - 2019.04.12 at 02h 45m 30s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 05m 09s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.12 at 02h 49m 14s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 12m 36s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.12 at 02h 50m 20s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 13m 32s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_Macys_src_test_resources_MacysTestRunner_xml - 2019.04.12 at 03h 05m 48s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/Macys/src/test/resources/MacysTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 14m 12s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_DunkinDonuts_src_test_resources_DunkinDonutsTestRunner_xml - 2019.04.12 at 03h 07m 49s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 26m 04s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_DunkinDonuts_src_test_resources_DunkinDonutsTestRunner_xml - 2019.04.12 at 03h 08m 39s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 26m 48s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_DunkinDonuts_src_test_resources_DunkinDonutsTestRunner_xml - 2019.04.12 at 03h 10m 01s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 27m 37s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_DunkinDonuts_src_test_resources_DunkinDonutsTestRunner_xml - 2019.04.12 at 03h 11m 06s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_UICatalog_src_test_resources_cataLogAppTestRunner_xml - 2019.04.11 at 05h 28m 11s.xml">
-      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/UICatalog/src/test/resources/cataLogAppTestRunner.xml" configurationId="TestNG" />
+    <history-entry file="_Users_Saqib_Desktop_MobileAutomationGroup2_DunkinDonuts_src_test_resources_DunkinDonutsTestRunner_xml - 2019.04.12 at 03h 16m 36s.xml">
+      <configuration name="/Users/Saqib/Desktop/MobileAutomationGroup2/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="24" width="1089" height="726" extended-state="0" />
+    <frame x="118" y="24" width="1162" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.20057307" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4989775" visible="true" weight="0.19107144" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -367,12 +327,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5010225" side_tool="true" weight="0.21529175" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27129337" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27129337" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26025236" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.329653" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.329653" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.329653" />
@@ -424,46 +384,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysAccount.java" />
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysAccount.java" />
     <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysStores.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="70" column="3" lean-forward="true" selection-start-line="70" selection-start-column="3" selection-end-line="74" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -478,95 +406,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysCustomerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/resources/TargetTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="52" lean-forward="true" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/test/java/TestTargetHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Target/src/main/java/TargetHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Starbucks/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Target/src/test/resources/TargetTestRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/Target/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/Target/src/test/java/TestTargetHome.java" />
+    <entry file="file://$PROJECT_DIR$/Target/src/main/java/TargetHome.java" />
+    <entry file="file://$PROJECT_DIR$/Starbucks/pom.xml" />
     <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-410" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Starbucks/src/test/resources/StarbucksTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Starbucks/src/main/java/StarbucksHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Starbucks/src/test/java/TestStarbucksHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Starbucks/src/test/resources/StarbucksTestRunner.xml" />
+    <entry file="file://$PROJECT_DIR$/Starbucks/src/main/java/StarbucksHome.java" />
+    <entry file="file://$PROJECT_DIR$/Starbucks/src/test/java/TestStarbucksHome.java" />
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
@@ -595,23 +447,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="3" selection-end-line="19" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Macys/src/main/java/MacysHome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -631,42 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsSignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsHome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#546#547#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#867#868#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsHome.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -674,23 +473,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsSignUpPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -859,25 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="39" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="247" column="9" lean-forward="true" selection-start-line="247" selection-start-column="9" selection-end-line="247" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3335#3336#0" expanded="true" />
-            <element signature="e#3365#3366#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/Picker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -897,6 +660,123 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/src/test/resources/cataLogAppTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysCustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="169" column="1" lean-forward="true" selection-start-line="169" selection-start-column="1" selection-end-line="169" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/java/TestMacysStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#621#622#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/MobileAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="162" column="88" lean-forward="true" selection-start-line="162" selection-start-column="88" selection-end-line="162" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3335#3336#0" expanded="true" />
+            <element signature="e#3365#3366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Macys/src/test/resources/MacysTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/main/java/DunkinDonutsSignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="156" column="22" selection-start-line="156" selection-start-column="22" selection-end-line="156" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsSignUpPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+            <element signature="e#1644#1645#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/test/java/TestDunkinDonutsHome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-230">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#932#933#0" expanded="true" />
+            <element signature="e#982#983#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1208#1209#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DunkinDonuts/src/test/resources/DunkinDonutsTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
