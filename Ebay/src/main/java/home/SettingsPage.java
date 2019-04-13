@@ -55,10 +55,10 @@ public class SettingsPage extends MobileAPI {
     @FindBy(id = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.view.ViewGroup/android.widget.TextView\n")
     public WebElement SettingsLogo;
 
-    @FindBy(id = "com.ebay.mobile:id/menuitem_notifications")
+    @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Main navigation, open\"]\n")
     public WebElement BurgerButton;
 
-    @FindBy(id = "com.ebay.mobile:id/menuitem_messages")
+    @FindBy(id = "com.ebay.mobile:id/menuitem_settings")
     public WebElement SettingsButton;
 
 

@@ -12,7 +12,9 @@
 
     <test name="Go to Home page" preserve-order="true">
         <classes>
+            <class name="testHome.TestSettingsPage"/>
             <class name="testHome.TestMainPage"/>
+
         </classes>
     </test>
 </suite>
