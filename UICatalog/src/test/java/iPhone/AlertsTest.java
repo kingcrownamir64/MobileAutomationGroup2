@@ -24,17 +24,17 @@ public class AlertsTest extends MobileAPI{
         alerts.setShowSimpleButton();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 2)
     public void testShowOkCancelButton() throws Exception {
         alerts.setShowOkCancelButton();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 3)
     public void testShowCustomized() throws Exception {
         alerts.setShowCustomized();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 4)
     public void testShowSimple() throws Exception {
         alerts.setShowSimple();
     }

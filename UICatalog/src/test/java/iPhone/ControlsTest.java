@@ -18,7 +18,7 @@ public class ControlsTest extends MobileAPI{
         controls.setControlsPage();
     }
 
-//    @Test(priority = 2)
+    @Test(priority = 2)
     public void testUITextField() throws Exception {
         controls.setStandardSwitch();
     }

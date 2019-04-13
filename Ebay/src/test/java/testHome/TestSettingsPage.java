@@ -1,21 +1,24 @@
-package iPhone;
+package testHome;
 
 import TextFieldsPage.TextFields;
 import ToolbarPage.Toolbar;
 import common.MobileAPI;
+import home.SettingsPage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class ToolbarTest extends MobileAPI{
+public class TestSettingsPage extends MobileAPI{
 
 
-    Toolbar toolbar = new Toolbar();
+    SettingsPage settingsPage = new SettingsPage();
 
     @BeforeMethod
     public void initialize() throws Exception {
-        this.toolbar = PageFactory.initElements(this.ad, Toolbar.class);
-        toolbar.setToolBarPageButton();
+        this.settingsPage = PageFactory.initElements(this.ad, SettingsPage.class);
+        settingsPage.setBurgerButton();
+        settingsPage.setSettingsButton();
+
     }
 
     @Test(priority = 1)
