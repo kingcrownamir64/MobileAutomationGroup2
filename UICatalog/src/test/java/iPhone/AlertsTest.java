@@ -1,55 +1,43 @@
 package iPhone;
 
 import AlertsPage.Alerts;
-import UiCatalogPage.UiCatalog;
+import TextFieldsPage.TextFields;
+import ToolbarPage.Toolbar;
 import common.MobileAPI;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-/**
- * Created by Bilal on 25-01-2017.
- */
-public class AlertsTest extends MobileAPI {
+public class AlertsTest extends MobileAPI{
 
-    public Alerts alerts(){
-        UiCatalog uiCatalog = PageFactory.initElements(ad, UiCatalog.class);
-        uiCatalog.getAlerts();
-        return PageFactory.initElements(ad, Alerts.class);
+
+    Alerts alerts = new Alerts();
+
+    @BeforeMethod
+    public void initialize() throws Exception {
+        this.alerts = PageFactory.initElements(this.ad, Alerts.class);
+        alerts.setSelectAlertsPage();
     }
-    @Test
-    public void testActionSheetSimple() throws InterruptedException {
-        alerts().showActionSheetSimple();
-        sleep(2);
+
+    @Test(priority = 1)
+    public void testShowSimpleButton() throws Exception {
+        alerts.setShowSimpleButton();
     }
-    @Test
-    public void testActionSheetOkCancel() throws InterruptedException {
-        alerts().showActionSheetOkCancel();
-        sleep(2);
+
+    @Test(priority = 2)
+    public void testShowOkCancelButton() throws Exception {
+        alerts.setShowOkCancelButton();
     }
-    @Test
-    public void testActionSheetCustom() throws InterruptedException {
-        alerts().showActionSheetCustom();
-        sleep(2);
+
+    @Test(priority = 3)
+    public void testShowCustomized() throws Exception {
+        alerts.setShowCustomized();
     }
-    @Test
-    public void testAlertSimple() throws InterruptedException {
-        alerts().showAlertSimple();
-        sleep(2);
+
+    @Test(priority = 4)
+    public void testShowSimple() throws Exception {
+        alerts.setShowSimple();
     }
-    @Test
-    public void testAlertOkCancel() throws InterruptedException {
-        alerts().showAlertOkCancel();
-        sleep(2);
-    }
-    @Test
-    public void testAlertCustom() throws InterruptedException {
-        alerts().showAlertCustom();
-        sleep(2);
-    }
-    @Test
-    public void testSecureInput() throws InterruptedException {
-        alerts().showSecureTextInput();
-        sleep(2);
-    }
+
 
 }

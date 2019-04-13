@@ -1,30 +1,52 @@
 package AlertsPage;
 
 import common.MobileAPI;
+import io.appium.java_client.TouchAction;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.touch.TouchActions;
+import org.openqa.selenium.support.FindBy;
+import org.testng.Assert;
 
-/**
- * Created by mrahman on 1/15/17.
- */
 public class Alerts extends MobileAPI {
-    public void showActionSheetSimple(){
-        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[1]");
+
+    @FindBy(xpath = "(//XCUIElementTypeStaticText[@name=\"Show Simple\"])[1]\n")
+    public WebElement ShowSimpleButton;
+
+    @FindBy(xpath = "(//XCUIElementTypeStaticText[@name=\"Show OK-Cancel\"])[1]\n")
+    public WebElement ShowOkCancelButton;
+
+    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Show Customized\"]\n")
+    public WebElement ShowCustomized;
+
+    @FindBy(xpath = "(//XCUIElementTypeStaticText[@name=\"Show Simple\"])[2]\n")
+    public WebElement ShowSimple;
+
+    @FindBy(xpath = "//XCUIElementTypeApplication[@name=\"UICatalog\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[11]\n")
+    public WebElement SelectAlertsPage;
+
+
+    public void setSelectAlertsPage() throws Exception {
+        SelectAlertsPage.click();
+        Assert.assertTrue(true);
     }
-    public void showActionSheetOkCancel(){
-        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[3]");
+
+    public void setShowSimpleButton() throws Exception {
+        ShowSimpleButton.click();
+        Assert.assertTrue(true);
     }
-    public void showActionSheetCustom(){
-        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[5]");
+
+    public void setShowOkCancelButton() throws Exception {
+        ShowOkCancelButton.click();
+        Assert.assertTrue(true);
     }
-    public void showAlertSimple(){
-        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[7]");
+
+    public void setShowCustomized() throws Exception {
+        ShowCustomized.click();
+        Assert.assertTrue(true);
     }
-    public void showAlertOkCancel(){
-        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[9]");
-    }
-    public void showAlertCustom(){
-        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[11]");
-    }
-    public void showSecureTextInput(){
-        clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[13]");
+
+    public void setShowSimple() throws Exception {
+        ShowSimple.click();
+        Assert.assertTrue(true);
     }
 }
